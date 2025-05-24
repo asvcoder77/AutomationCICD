@@ -1,0 +1,8 @@
+vishnuasautomation\AbstractComponents\AbstractComponents.class
+vishnuasautomation\pageobjects\OrdersPage.class
+vishnuasautomation\pageobjects\CheckOutPage.class
+vishnuasautomation\pageobjects\ProductCatalogue.class
+vishnuasautomation\pageobjects\CartPage.class
+vishnuasautomation\resources\ExtentReporterNG.class
+vishnuasautomation\pageobjects\ConfirmationPage.class
+vishnuasautomation\pageobjects\LandingPage.class

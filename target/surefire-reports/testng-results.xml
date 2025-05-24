@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="12" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-20T16:40:08 IST" name="Suite" finished-at="2025-05-20T16:40:40 IST" duration-ms="31882">
+    <groups>
+      <group name="errorhandling">
+        <method signature="ErrorValidationTest.errorValidation()[pri:0, instance:vishnuasautomation.tests.ErrorValidationTest@20b2475a]" name="errorValidation" class="vishnuasautomation.tests.ErrorValidationTest"/>
+        <method signature="ParameterizationusingjsonTest.standAloneNewTwo(java.util.HashMap)[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" name="standAloneNewTwo" class="vishnuasautomation.tests.ParameterizationusingjsonTest"/>
+      </group> <!-- errorhandling -->
+    </groups>
+    <test started-at="2025-05-20T16:40:08 IST" name="Test" finished-at="2025-05-20T16:40:40 IST" duration-ms="31882">
+      <class name="vishnuasautomation.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vishnuasautomation.tests.ErrorValidationTest@20b2475a]" started-at="2025-05-20T16:40:08 IST" name="launchApplication" finished-at="2025-05-20T16:40:14 IST" duration-ms="5703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="errorValidation()[pri:0, instance:vishnuasautomation.tests.ErrorValidationTest@20b2475a]" started-at="2025-05-20T16:40:14 IST" name="errorValidation" finished-at="2025-05-20T16:40:15 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vishnuasautomation.tests.ErrorValidationTest@20b2475a]" started-at="2025-05-20T16:40:15 IST" name="tearDown" finished-at="2025-05-20T16:40:15 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vishnuasautomation.tests.ErrorValidationTest -->
+      <class name="vishnuasautomation.tests.ParameterizationusingjsonTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" started-at="2025-05-20T16:40:09 IST" name="launchApplication" finished-at="2025-05-20T16:40:14 IST" duration-ms="5271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="standAloneNewTwo(java.util.HashMap)[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" started-at="2025-05-20T16:40:14 IST" name="standAloneNewTwo" data-provider="getData" finished-at="2025-05-20T16:40:21 IST" duration-ms="6807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Vi@12345, email=asvishnukaruvannur7@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standAloneNewTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" started-at="2025-05-20T16:40:21 IST" name="tearDown" finished-at="2025-05-20T16:40:21 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" started-at="2025-05-20T16:40:21 IST" name="launchApplication" finished-at="2025-05-20T16:40:22 IST" duration-ms="1558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="standAloneNewTwo(java.util.HashMap)[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" started-at="2025-05-20T16:40:22 IST" name="standAloneNewTwo" data-provider="getData" finished-at="2025-05-20T16:40:40 IST" duration-ms="17625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Qa@12345, email=vishnuas131@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standAloneNewTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vishnuasautomation.tests.ParameterizationusingjsonTest@480d3575]" started-at="2025-05-20T16:40:40 IST" name="tearDown" finished-at="2025-05-20T16:40:40 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vishnuasautomation.tests.ParameterizationusingjsonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

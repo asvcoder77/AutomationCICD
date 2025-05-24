@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+<listeners>
+	<listener class-name="vishnuasautomation.TestComponents.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="errorhandling"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="vishnuasautomation.tests.ParameterizationusingjsonTest"/>
+      <class name="vishnuasautomation.tests.NewValidationsTest"/>
+      <class name="vishnuasautomation.tests.ParameterizationTest"/>
+      <class name="vishnuasautomation.TestComponents.BaseTest"/>
+      <class name="vishnuasautomation.tests.StandAloneTest"/>
+      <class name="vishnuasautomation.tests.ErrorValidationTest"/>
+      <class name="vishnuasautomation.tests.ParameterizationusinghashmapTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
