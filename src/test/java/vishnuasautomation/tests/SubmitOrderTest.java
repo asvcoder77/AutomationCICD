@@ -19,6 +19,7 @@ import vishnuasautomation.pageobjects.LandingPage;
 public class SubmitOrderTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		//hi
 		WebDriverManager.chromedriver().setup();//invoking chromedriver
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//implicitwait
