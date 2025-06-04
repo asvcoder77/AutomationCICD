@@ -28,7 +28,7 @@ public class StandAloneTest extends BaseTest {
 		Boolean match = cartpage.checkProductPresent("ZARA COAT 3");
 		Assert.assertTrue(match);
 		CheckOutPage checkoutpage =cartpage.clickCheckOut();
-		
+		\\hi
 		checkoutpage.selectCountry("india");
 		ConfirmationPage confirmationpage=checkoutpage.clickSubmit();
 		
